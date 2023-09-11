@@ -1,0 +1,1 @@
+This is a repository created to store the exercises I make along my Odin Project journey.
