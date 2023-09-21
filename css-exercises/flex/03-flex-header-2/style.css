@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 20px;
 }
 
 .profile-image {
@@ -29,12 +33,15 @@ body {
   font-style: italic;
 }
 
+/* probably using margin-left: auto; here is bad practice, the solution makes two divs with class .left for logo and links and .right for button and profile-image inside the header and justify-content: space-between; on .header */
+
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-left: auto;
 }
 
 a {
@@ -45,4 +52,7 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 15px;
 }
